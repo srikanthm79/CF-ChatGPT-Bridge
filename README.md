@@ -136,7 +136,7 @@ chatGPT = new com.madishetti.ChatGPT().init();
 response = chatGPT.sendMessageAndRetrieveAllMessages(message = 'test', threadId ='');
 ```
 #### Output
-Returns a ordered struct of all messages for a given thread generated from the ChatGPT Assistant OpenAI API.
+Returns an ordered struct of all messages for a given thread generated from the ChatGPT Assistant OpenAI API.
 
 ## Sample Implementation
 
