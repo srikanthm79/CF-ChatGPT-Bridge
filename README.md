@@ -27,7 +27,7 @@ Ensure that the necessary ChatGPT completion and assistant Configuration configu
 - **completionEndpoint**: The specific endpoint URL used for generating text completions.
 
 ### Content Moderation
-- **abusiveWords**: A list of words that are considered abusive or inappropriate. The assistant will avoid using these words in its responses.
+- **abusiveWords**: A list of words that are considered abusive or inappropriate.
 
 ### Assistant Limits
 - **assistantMessageLimit**: The maximum number of messages the assistant can handle in a single interaction or session. This setting helps manage the scope of interactions.
@@ -85,9 +85,10 @@ variables.args = {
     "formattingInstructions": formattingInstructions
 };
 
-// if isReview
-    variables.args.isReview = true;
-    variables.args.reviewInstructions = reviewInstructions;
+// if(isReview) {
+      variables.args.isReview = true;
+      variables.args.reviewInstructions = reviewInstructions;
+    }
 
 // Initialize the ChatGPT object
 variables.chatGPT = new com.madishetti.ChatGPT().init();
@@ -138,7 +139,7 @@ Returns a ordered struct of all messages for a given thread generated from the C
 
 ## Sample Implementation
 
-To test the Chat Assistant chat functionality, please run the file `ChatAssistantTest.cfm`. For testing content completion, run the file `ChatSuggestContentTest.cfm`. These files are located in the `examples` folder.
+To test the Chat Assistant functionality, please run the file `ChatAssistantTest.cfm`. For testing content completion, run the file `ChatSuggestContentTest.cfm`. These files are located in the `examples` folder.
 
 ## ChatGPT Documentation
 
