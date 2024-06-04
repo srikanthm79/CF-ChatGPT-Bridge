@@ -1,0 +1,16 @@
+{
+    "name":"CF-ChatGPT-Bridge",
+    "version":"1.0.0",
+    "app":{
+        "cfengine":"lucee-light@5.4.3+2"
+    },
+    "profile":"development",
+    "web":{
+        "http":{
+            "port":"8100"
+        },
+        "rewrites":{
+            "enabled":"false"
+        }
+    }
+}

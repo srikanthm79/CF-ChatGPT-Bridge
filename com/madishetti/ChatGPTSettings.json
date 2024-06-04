@@ -1,0 +1,14 @@
+{
+    "apiKey" : "Give your key here",
+    "assistantId" : "Give your assistant ID here",
+    "assistantEndPoint" : "https://api.openai.com/v1/",
+    "defaultCompletionModel" : "gpt-3.5-turbo-instruct",
+    "defaultCompletionTemperature" : 0.7,
+    "defaultCompletionMaxTokens" : 500,
+    "completionEndpoint" : "https://api.openai.com/v1/completions",
+    "abusiveWords" : "badword1, badword2, badword3",
+    "assistantMessageLimit" : 5,
+    "defaultContentLanguage" : "English",
+    "defaultContentAudience" : "general public",
+    "defaultContentTone" : "neutral"
+}
