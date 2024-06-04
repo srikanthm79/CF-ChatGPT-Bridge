@@ -5,6 +5,8 @@ A simple and straight-forward library to integrate ChatGPT for content completio
 
 This document provides instructions on using `ChatGPT.cfc` straightforward functions `suggestContent` for content completion and `sendMessage` for chat Assistant support. Follow the steps below to initialize the ChatGPT settings, set configuration values, and utilize the ChatGPT methods provided.
 
+CF-ChatGPT-Bridge should be compatible with both Lucee and Adobe ColdFusion. It has been tested with the Lucee engine version lucee-light@5.4.3+2 and the Adobe ColdFusion version adobe@2021.
+
 ## Step 1: Install
 
 You can run this as a standalone application without any frameworks. To run tests and build documentation, please execute `box install`.
