@@ -85,7 +85,8 @@ variables.args = {
     "formattingInstructions": formattingInstructions
 };
 
-// if(isReview) {
+// Is review
+if(isReview) {
       variables.args.isReview = true;
       variables.args.reviewInstructions = reviewInstructions;
     }
